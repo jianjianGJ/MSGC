@@ -46,7 +46,7 @@ def set_args(args):
         args.standardscaler = False
         args.transductive = True
         args.edge_hidden_channels = 128
-        args.epochs_initial = 100
+        args.epochs_initial = 600
         args.initial = 'mean'
         args.epochs_evalue = 50
         if args.basic_model == 'SGC':
