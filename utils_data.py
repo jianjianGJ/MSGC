@@ -113,7 +113,7 @@ def get_data(root: str, name: str) -> Tuple[Data, int, int]:
         return get_genius(root)
     else:
         raise NotImplementedError
-#'./GCond_data/'
+
 def load_data(data_name, root='/home/gj/SpyderWorkSpace/data/', transductive=True,
               add_selfloop=True, norm=True, standardscaler=False):
     
